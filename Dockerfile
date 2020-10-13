@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Prashansa Kulshrestha
+MAINTAINER Renga Vasudevan
 RUN apt-get update
 RUN apt-get install -y python
 ADD hello.py /home/hello.py
